@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.App {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.App select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    background-color: mediumaquamarine;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+}
+
+.table table {
+    width: 100%;
+}
+
+.tableTD td {
+    border: 2px solid ;
+    padding: 10px;
+    text-align: center;
+}
+
+.tableTD, th {
+    padding: 12px;
+    border: 2px dashed ;
+}
+
+header h1{
+    color: #fff;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: #fff;
+    background-color: gray;
+    text-align: center;
+    padding: 15px;
+}
